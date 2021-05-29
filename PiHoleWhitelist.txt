@@ -1,0 +1,140 @@
+# From Scott Hanselman list
+pihole -w analytics.twitter.com
+pihole -w api.mixpanel.com
+pihole -w api.segment.io
+pihole -w attestation.xboxlive.com
+pihole -w az416426.vo.msecnd.net
+pihole -w browser.pipe.aria.microsoft.com
+pihole -w c.bing.com
+pihole -w c.msn.com
+pihole -w c1.microsoft.com
+pihole -w cdn-gl.imrworldwide.com
+pihole -w cdn.mxpnl.com
+pihole -w cert.mgt.xboxlive.com
+pihole -w clientconfig.passport.net
+pihole -w crashlytics.com
+pihole -w ctldl.windowsupdate.com
+pihole -w cts.vresp.com
+pihole -w dc.services.visualstudio.com
+pihole -w def-vef.xboxlive.com
+pihole -w device-metrics-us.amazon.com
+pihole -w device.auth.xboxlive.com
+pihole -w e.crashlytics.com
+pihole -w eds.xboxlive.com
+pihole -w feedblitz.com
+pihole -w help.ui.xboxlive.com
+pihole -w ikea.com
+pihole -w lcprd1.samsungcloudsolution.net
+pihole -w licensing.xboxlive.com
+pihole -w microsoft.com
+pihole -w mobile.pipe.aria.microsoft.com
+pihole -w nexusrules.officeapps.live.com
+pihole -w notify.xboxlive.com
+pihole -w oca.telemetry.microsoft.com
+pihole -w otf.msn.com
+pihole -w sb.scorecardresearch.com
+pihole -w settings-win.data.microsoft.com
+pihole -w stats.pusher.com
+pihole -w title.auth.xboxlive.com
+pihole -w title.mgt.xboxlive.com
+pihole -w wdcp.microsoft.com
+pihole -w usage.trackjs.com
+pihole -w v10.events.data.microsoft.com
+pihole -w v10c.vortex-win.data.microsoft.com
+pihole -w v10.vortex-win.data.microsoft.com
+pihole -w v20.vortex-win.data.microsoft.com
+pihole -w vortex.data.microsoft.com
+pihole -w wdcpalt.microsoft.com
+pihole -w watson.telemetry.microsoft.com
+pihole -w web.vortex.data.microsoft.com
+pihole -w windows.com
+pihole -w www.msftncsi.com
+pihole -w www.xboxlive.com
+pihole -w xbox.ipv6.microsoft.com
+pihole -w xboxexperiencesprod.experimentation.xboxlive.com
+pihole -w xflight.xboxlive.com
+pihole -w xkms.xboxlive.com
+pihole -w xsts.auth.xboxlive.com
+# Google Maps
+pihole -w clients4.google.com
+pihole -w clients2.google.com
+pihole -w app-measurement.com
+# YouTube history
+pihole -w s.youtube.com
+pihole -w video-stats.l.google.com
+# Google Play
+pihole -w android.clients.google.com
+# Google Keep
+pihole -w reminders-pa.googleapis.com firestore.googleapis.com
+# Google fonts
+pihole -w gstaticadssl.l.google.com
+# Gmail
+pihole -w googleapis.l.google.com
+# Google Chrome
+pihole -w dl.google.com
+# Android TV
+pihole -w redirector.gvt1.com
+# Windows connectivity test
+pihole -w www.msftncsi.com
+# Bitlocker recovery
+pihole -w g.live.com
+# Microsoft Store
+pihole -w dl.delivery.mp.microsoft.com geo-prod.do.dsp.mp.microsoft.com displaycatalog.mp.microsoft.com
+# Windows 10 Update
+pihole -w sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.nsatc.net tlu.dl.delivery.mp.microsoft.com
+# Edge Browser update
+pihole -w msedge.api.cdp.microsoft.com
+# XBox Live
+pihole -w clientconfig.passport.net
+# Xbox Live Achievements
+pihole -w v10.events.data.microsoft.com
+pihole -w v20.events.data.microsoft.com
+# Xbox Live Messaging
+pihole -w client-s.gateway.messenger.live.com
+# Store App on Series X/S
+pihole -w arc.msn.com
+# EA Play
+pihole -w activity.windows.com
+# Xbox Live full functionality
+pihole -w xbox.ipv6.microsoft.com device.auth.xboxlive.com www.msftncsi.com title.mgt.xboxlive.com xsts.auth.xboxlive.com title.auth.xboxlive.com ctldl.windowsupdate.com attestation.xboxlive.com xboxexperiencesprod.experimentation.xboxlive.com xflight.xboxlive.com cert.mgt.xboxlive.com xkms.xboxlive.com def-vef.xboxlive.com notify.xboxlive.com help.ui.xboxlive.com licensing.xboxlive.com eds.xboxlive.com www.xboxlive.com v10.vortex-win.data.microsoft.com settings-win.data.microsoft.com
+# Skype
+pihole -w s.gateway.messenger.live.com client-s.gateway.messenger.live.com ui.skype.com pricelist.skype.com apps.skype.com m.hotmail.com sa.symcb.com s{1..5}.symcb.com
+# Office
+pihole -w officeclient.microsoft.com
+# Bing Maps
+pihole -w dev.virtualearth.net ecn.dev.virtualearth.net t0.ssl.ak.dynamic.tiles.virtualearth.net t0.ssl.ak.tiles.virtualearth.net
+# Apple music
+pihole -w itunes.apple.com
+pihole -w s.mzstatic.com
+# Apple ID
+pihole -w appleid.apple.com
+# Captive-portal tests
+# Android/Chrome
+pihole -w connectivitycheck.android.com android.clients.google.com clients3.google.com connectivitycheck.gstatic.com
+# Windows/Microsoft
+pihole -w msftncsi.com www.msftncsi.com ipv6.msftncsi.com
+# IOS/Apple
+pihole -w captive.apple.com gsp1.apple.com www.apple.com www.appleiphonecell.com
+# Spotify
+pihole -w spclient.wg.spotify.com apresolve.spotify.com
+pihole -w api-tv.spotify.com
+# Facebook messenger
+pihole -w upload.facebook.com creative.ak.fbcdn.net external-lhr0-1.xx.fbcdn.net external-lhr1-1.xx.fbcdn.net external-lhr10-1.xx.fbcdn.net external-lhr2-1.xx.fbcdn.net external-lhr3-1.xx.fbcdn.net external-lhr4-1.xx.fbcdn.net external-lhr5-1.xx.fbcdn.net external-lhr6-1.xx.fbcdn.net external-lhr7-1.xx.fbcdn.net external-lhr8-1.xx.fbcdn.net external-lhr9-1.xx.fbcdn.net fbcdn-creative-a.akamaihd.net scontent-lhr3-1.xx.fbcdn.net scontent.xx.fbcdn.net scontent.fgdl5-1.fna.fbcdn.net graph.facebook.com b-graph.facebook.com connect.facebook.com cdn.fbsbx.com api.facebook.com edge-mqtt.facebook.com mqtt.c10r.facebook.com portal.fb.com star.c10r.facebook.com star-mini.c10r.facebook.com b-api.facebook.com fb.me bigzipfiles.facebook.com l.facebook.com www.facebook.com scontent-atl3-1.xx.fbcdn.net static.xx.fbcdn.net edge-chat.messenger.com video.xx.fbcdn.net external-ort2-1.xx.fbcdn.net scontent-ort2-1.xx.fbcdn.net
+# Plex
+pihole -w plex.tv tvdb2.plex.tv pubsub.plex.bz proxy.plex.bz proxy02.pop.ord.plex.bz cpms.spop10.ams.plex.bz meta-db-worker02.pop.ric.plex.bz meta.plex.bz tvthemes.plexapp.com.cdn.cloudflare.net tvthemes.plexapp.com 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services meta.plex.tv cpms35.spop10.ams.plex.bz proxy.plex.tv metrics.plex.tv pubsub.plex.tv status.plex.tv www.plex.tv node.plexapp.com nine.plugins.plexapp.com staging.plex.tv app.plex.tv o1.email.plex.tv  o2.sg0.plex.tv dashboard.plex.tv
+pihole -w gravatar.com # custom login pictures
+pihole -w thetvdb.com # metadata for tv series
+pihole -w themoviedb.com # metadata for movies
+pihole -w chtbl.com # iHeart radio/Plex Podcast
+# Dropbox
+pihole -w dl.dropboxusercontent.com ns1.dropbox.com ns2.dropbox.com
+# Nvidia
+pihole -w gfwsl.geforce.com
+# Epic
+pihole -w tracking.epicgames.com
+# Lowes
+pihole -w assets.adobedtm.com
+# Home depot
+pihole -w nexus.ensighten.com
+# Canon
+pihole -w gdlp01.c-wss.com
